@@ -1,0 +1,182 @@
+/* class標籤 */
+.food{
+    color: pink;
+}
+.person{
+    color: powderblue;
+}
+.background-gray{
+    background-color: gray;
+}
+/* id標籤 */
+#css-h1{
+    color: green;
+}
+/* 背景顏色改變 */
+.food-1:hover{
+    background-color: grey;
+}
+#id-person:hover{
+    background-color: bisque;
+}
+/* [type]{
+    background-color: gray;
+} */
+
+.text:hover{
+    background-color: gray;
+}
+.password:hover{
+    background-color: goldenrod;
+}
+.container{
+    display: flex;
+}
+.container div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+}
+.box-1{
+    flex: 1;
+    order: 2;
+}
+.box-2{
+    flex: 1;
+    order: 3;
+}
+.box-3{
+    flex: 1;
+    order: 1;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-2 div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+}
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid red;
+}
+.container-3 div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+    
+}
+.container-4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid red;
+}
+.container-4 div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+    
+}
+.box3-1{
+    flex: 1;
+}
+.box3-2{
+    flex: 1;
+}
+.box3-3{
+    flex: 1;
+}
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid red;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-5 div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    
+}
+.box4-1{
+
+}
+.box4-2{
+
+}
+.box4-3{
+
+}
+.container-6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    border: 1px solid red;
+    justify-content: center;
+    align-content: center;
+}
+.container-6 div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    
+}
+/* 動畫教學 */
+@keyframes change-color{
+    0% {background-color: red;}
+    20% {background-color: blue;}
+    40% {background-color: green;}
+    60% {background-color: blanchedalmond;}
+    80% {background-color: rebeccapurple;}
+    100% {background-color: red;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+
+}
+.box-animation{
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+/* 動畫教學 */
+@keyframes change-color{
+    0% {background-color: red; top: 10px; left: 10px;}
+    20% {background-color: blue;top: 20px; left: 20px;}
+    40% {background-color: green;top: 30px; left: 30px;}
+    60% {background-color: blanchedalmond;top: 40px; left: 40px;}
+    80% {background-color: rebeccapurple;top: 50px; left: 50px;}
+    100% {background-color: red;top: 60px; left: 60px;}
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+}
+.box2-animation{
+    animation-name: change-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#mybt{
+    background-color: white;
+    border: none;
+}
